@@ -36,4 +36,4 @@ renderAlert();
 
 //setInterval(renderAlert, 1000);
 
-module.exports = (renderAlert)
+module.exports = renderAlert
