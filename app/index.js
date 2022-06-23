@@ -1,5 +1,8 @@
-var mysql = require('mysql');
-var conn = mysql.createConnection({
+const { builtinModules } = require('module');
+
+
+const mysql = require('mysql');
+const conn = mysql.createConnection({
   host: 'localhost',
   user: '',
   password: '',
